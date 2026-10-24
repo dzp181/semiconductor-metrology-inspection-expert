@@ -1,0 +1,93 @@
+{
+  "name": "semiconductor-metrology-inspection-expert",
+  "version": "1.0.0",
+  "description": "Semiconductor metrology and wafer inspection equipment expert: explains OCD/CD-SEM/overlay/film-thickness/e-beam inspection technologies, maps the equipment supply chain and China localization players, and frames advanced-node, advanced-packaging and yield-performance analysis.",
+  "author": {
+    "name": "超级DOGE产投",
+    "email": "contact@superdoge.ai"
+  },
+  "homepage": {
+    "url": "https://github.com/dzp181/semiconductor-metrology-inspection-expert",
+    "type": "github"
+  },
+  "license": "MIT",
+  "keywords": [
+    "半导体量测",
+    "半导体检测",
+    "量测检测设备",
+    "量检测设备",
+    "半导体量测设备",
+    "半导体检测设备",
+    "晶圆缺陷检测",
+    "无图形晶圆检测",
+    "图形晶圆检测",
+    "OCD",
+    "散射测量",
+    "CD-SEM",
+    "套刻量测",
+    "Overlay",
+    "膜厚量测",
+    "椭偏仪",
+    "电子束检测",
+    "E-beam Inspection",
+    "缺陷复查",
+    "良率管理",
+    "过程控制",
+    "先进封装检测",
+    "HBM检测",
+    "KLA",
+    "中科飞测",
+    "精测电子",
+    "量检测国产替代",
+    "Semiconductor Metrology",
+    "Wafer Inspection",
+    "Defect Inspection",
+    "Process Control",
+    "Yield Management",
+    "Advanced Packaging Inspection"
+  ],
+  "agents": ["./agents/semiconductor-metrology-inspection-expert.md"],
+  "skills": ["./skills/semi-metrology-knowledge"],
+
+  "expertType": "agent",
+  "agentName": "semiconductor-metrology-inspection-expert",
+
+  "displayName": {
+    "en": "Semiconductor Metrology & Inspection Equipment Expert",
+    "zh": "半导体量测检测设备专家"
+  },
+  "profession": {
+    "en": "Semiconductor Metrology & Inspection Equipment Industry Advisor",
+    "zh": "半导体量测检测设备产业研究顾问"
+  },
+  "displayDescription": {
+    "en": "Explains metrology and wafer inspection equipment technologies (OCD, CD-SEM, overlay, film thickness, e-beam), maps the supply chain and China localization players, and frames advanced-node and advanced-packaging yield analysis.",
+    "zh": "解读半导体量测与检测设备的技术路线、工艺节点需求与国产替代格局，剖析核心厂商与投资逻辑。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "02-Engineering",
+  "defaultInitPrompt": {
+    "zh": "量测和检测有什么区别？把OCD、CD-SEM、套刻、膜厚、缺陷检测这些设备类型讲清楚",
+    "en": "What is the difference between metrology and inspection? Walk me through OCD, CD-SEM, overlay, film thickness and defect inspection"
+  },
+  "plugin": "semiconductor-metrology-inspection-expert",
+  "tags": [
+    { "en": "Semiconductor Metrology", "zh": "半导体量测设备" },
+    { "en": "Wafer Defect Inspection", "zh": "晶圆缺陷检测" },
+    { "en": "Metrology Localization", "zh": "量检测国产替代" }
+  ],
+  "quickPrompts": [
+    {
+      "en": "What is the difference between metrology and inspection? Walk me through OCD, CD-SEM, overlay, film thickness and defect inspection",
+      "zh": "量测和检测有什么区别？把OCD、CD-SEM、套刻、膜厚、缺陷检测这些设备类型讲清楚"
+    },
+    {
+      "en": "Map the metrology and inspection equipment supply chain and China localization progress, with the key A-share players",
+      "zh": "梳理量检测设备产业链与国产替代进展，列出核心A股标的"
+    },
+    {
+      "en": "Analyze how advanced nodes, HBM and advanced packaging drive metrology/inspection demand and where the real bottleneck is",
+      "zh": "分析先进制程、HBM与先进封装对量检测设备的需求拉动和真正的卡点在哪里"
+    }
+  ]
+}
